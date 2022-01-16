@@ -1,0 +1,33 @@
+.TodoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #B8F1D2;
+    font-family: 'Montserrat';
+    font-size: large;
+    color: black;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+span img{
+    width: 25px;
+    height: 25px;
+}
+.icon-check{
+    margin-left: 5px;
+    transition: transform .2s;
+}
+.icon-delete{
+    margin-right: 5px;
+    transition: transform .2s;
+}
+.icon-check:hover{
+    transform: scale(1.5);
+}
+.icon-delete:hover{
+    transform: scale(1.5);
+}
+.item-completed{
+    text-decoration:line-through;
+    color: red;
+}
